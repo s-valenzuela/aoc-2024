@@ -16,7 +16,7 @@ public class Day01Second {
 
     public void readFromFile() {
         try {
-            Files.readAllLines(Path.of("/home/valenzuela/repositories/aoc-2024/aoc-2024/src/main/resources/d01-2/input1")).forEach(line -> {
+            Files.readAllLines(Path.of("src/main/resources/d01-2/input")).forEach(line -> {
                 String[] split = line.split("\\s");
                 Long firstNumber = Long.valueOf(split[0]);
                 Long secondNumber = Long.valueOf(split[3]);
